@@ -17,16 +17,17 @@ public class Prjava02 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("versió 0.1 del projecte prjava02"); 	
+        System.out.println("versiï¿½ 0.1 del projecte prjava02"); 	
         try {
-            InetAddress adreça = InetAddress.getLocalHost();
-            String hostname = adreça.getHostName();
+            InetAddress adreï¿½a = InetAddress.getLocalHost();
+            String hostname = adreï¿½a.getHostName();
             System.out.println("hostname="+hostname);
             System.out.println("Nom de l'usuari: " + System.getProperty("user.name"));
             System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
             System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
-            System.out.println("Versió OS: " + System.getProperty("os.version"));
-            System.out.println("Creació d'una branca del projecte prjava02");
+            System.out.println("Versiï¿½ OS: " + System.getProperty("os.version"));
+            System.out.println("Creaciï¿½ d'una branca del projecte prjava02");
+            System.out.println("Afegint mÃ©s codi a la branca00 del projecte prjava02");
         }
         catch (IOException e) {
 		System.out.println("Exception occurred");
